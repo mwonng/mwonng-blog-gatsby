@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components';
 import { rhythm, scale } from '../utils/typography'
 import Nav from '../components/Nav'
@@ -11,6 +11,7 @@ const HeadingOne = styled.h1`
 
 class Template extends React.Component {
   render() {
+    // const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
@@ -27,7 +28,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Lighthouse
           </Link>
         </HeadingOne>
       )
@@ -48,7 +49,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Lighthouse
           </Link>
         </h3>
       )
@@ -62,7 +63,7 @@ class Template extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <Nav />
+        {/* <Nav /> */}
         {header}
         {children}
       </div>
@@ -71,3 +72,15 @@ class Template extends React.Component {
 }
 
 export default Template
+
+
+export const layoutQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`
