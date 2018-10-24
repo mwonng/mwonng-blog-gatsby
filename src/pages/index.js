@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
+import Nav from '../components/Nav'
 import Layout from '../components/layout'
 import { rhythm } from '../utils/typography'
 
@@ -24,6 +25,7 @@ class BlogIndex extends React.Component {
           title={siteTitle}
         />
         <Bio />
+        <Nav />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (

@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import styled from 'styled-components';
 import { rhythm, scale } from '../utils/typography'
+
+const HeadingOne = styled.h1`
+  font-size: 3rem;
+  margin: 0 auto 2.65rem auto;
+`
 
 class Template extends React.Component {
   render() {
@@ -11,12 +16,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
+        <HeadingOne
         >
           <Link
             style={{
@@ -28,7 +28,7 @@ class Template extends React.Component {
           >
             Gatsby Starter Blog
           </Link>
-        </h1>
+        </HeadingOne>
       )
     } else {
       header = (
