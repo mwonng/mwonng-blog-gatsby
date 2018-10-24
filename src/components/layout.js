@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components';
 import { rhythm, scale } from '../utils/typography'
+import Nav from '../components/Nav'
 
 const HeadingOne = styled.h1`
   font-size: 3rem;
@@ -61,6 +62,7 @@ class Template extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+        <Nav />
         {header}
         {children}
       </div>
