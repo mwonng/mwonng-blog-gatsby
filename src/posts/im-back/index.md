@@ -1,6 +1,7 @@
 ---
 title: I'm back!
 date: "2016-07-12"
+path: "/posts/im-back"
 ---
 
 So, actually wordpress was blocked for a long time. I have never visit wordpress for THREE years! Although I could jailbreak the [Chinese Great Firewall](http://en.wikipedia.org/wiki/Golden_Shield_Project "What"), I do not update this blog any more in last three years.

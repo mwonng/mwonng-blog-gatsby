@@ -1,6 +1,7 @@
 ---
 title: Road to Autralia | 我的移民之路
 date: "2017-07-04T20:12:37+10:00"
+path: "/posts/road-to-australia"
 ---
 
 >备注: 当前版本为 Medium 文字拷贝版本，为了您更好的阅读体验，请访问 [这里](https://medium.com/@mwonng/%E6%88%91%E7%9A%84%E8%BF%81%E5%BE%99%E4%B9%8B%E8%B7%AF-6464b735ea96)

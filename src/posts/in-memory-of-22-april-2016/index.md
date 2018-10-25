@@ -1,6 +1,7 @@
 ---
 title: In memory of 22 April 2016
 date: "2016-04-22"
+path: "/posts/in-memory-of-22-april-2016"
 ---
 
 Today must be the most important day in my life.

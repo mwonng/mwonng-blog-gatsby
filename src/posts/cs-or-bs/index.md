@@ -1,6 +1,7 @@
 ---
 title: C/S or B/S?
 date: "2017-05-19T00:54:37+10:00"
+path: "/posts/cs-or-bs"
 ---
 ## What I am talking about?
 At beginning of software development, client side  becoming popular in OS. So you have to install everything with a .EXE on window or .APP on Mac. Until now, we have a lot of C/S application in our personal computer.

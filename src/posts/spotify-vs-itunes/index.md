@@ -1,6 +1,7 @@
 ---
 title: Spotify vs iTunes music
 date: "2016-07-12"
+path: "/posts/spotify-vs-itunes-music"
 ---
 
 # Background

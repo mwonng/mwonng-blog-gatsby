@@ -1,6 +1,7 @@
 ---
 title: My reasons for quit FileMaker Business Alliance in China
 date: "2017-05-01"
+path: "/posts/reason-for-quit-fba"
 ---
 
 

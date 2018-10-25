@@ -1,6 +1,7 @@
 ---
 title: Declaration of FileMaker Developer Statement
 date: "2016-07-08"
+path: "/posts/declaration-of-filemaker-developer-statement"
 ---
 
 I am honor to being the first certificated FileMaker Business Alliance(FBA) partner in China area. With my 10 years FileMaker experience and my friends in Apple and FileMaker, I’m very shame to say i did a lot support to FileMaker and I will never to say that in the future. I am very appreciate for Jeff Cui(Current BDM in FileMaker China), Mr. Gui(current in Apple), Mr. Duanmu(was in Apple).

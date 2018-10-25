@@ -1,6 +1,7 @@
 ---
 title: Let's talk about Wechat
 date: "2017-05-01"
+path: "/posts/lets-talk-about-wechat"
 ---
 
 ## WeChat vs Apple

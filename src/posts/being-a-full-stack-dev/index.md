@@ -1,6 +1,7 @@
 ---
 title: Being a full-stack developer
 date: "2016-07-12"
+path: "/posts/being-a-full-stack-dev"
 ---
 
 
