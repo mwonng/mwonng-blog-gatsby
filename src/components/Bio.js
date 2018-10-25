@@ -32,9 +32,9 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Michael Wonng</strong> who lives and works in Melbourne building useful things.{' '}
+          Written by <strong>Michael H Wonng</strong>, A husband, father, programmer who lives and works in Melbourne.{' '}
           <a href="https://twitter.com/mwonng">
-            Follow me on twitter
+            follow me on twitter
           </a>
         </p>
       </div>
