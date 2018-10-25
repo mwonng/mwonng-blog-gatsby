@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components';
 
 // Import typefaces
 import 'typeface-montserrat'
@@ -6,6 +7,10 @@ import 'typeface-merriweather'
 
 import profilePic from './avatarM.jpg'
 import { rhythm } from '../utils/typography'
+
+const Avatar = styled.img`
+  border-radius: 50%;
+`
 
 class Bio extends React.Component {
   render() {
@@ -16,7 +21,7 @@ class Bio extends React.Component {
           marginBottom: rhythm(2.5),
         }}
       >
-        <img
+        <Avatar
           src={profilePic}
           alt={`Kyle Mathews`}
           style={{
