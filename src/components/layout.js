@@ -1,13 +1,9 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import styled from 'styled-components';
 import { rhythm, scale } from '../utils/typography'
 import Nav from '../components/Nav'
+import {HeadingOne} from './elements/Headings';
 
-const HeadingOne = styled.h1`
-  font-size: 3rem;
-  margin: 0 auto 2.65rem auto;
-`
 
 class Template extends React.Component {
   render() {
