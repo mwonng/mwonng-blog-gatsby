@@ -6,7 +6,8 @@ Wordpress2016.overrideThemeStyles = () => ({
     boxShadow: 'none',
   },
 })
-
+Wordpress2016.headerColor = '#1c1c1c',
+Wordpress2016.bodyColor = '#3d3d3d',
 delete Wordpress2016.googleFonts
 
 const typography = new Typography(Wordpress2016)
