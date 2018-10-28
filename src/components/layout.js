@@ -83,14 +83,3 @@ class Template extends React.Component {
 }
 
 export default Template
-
-export const layoutQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-  }
-`
