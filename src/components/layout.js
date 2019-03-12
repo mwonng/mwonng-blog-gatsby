@@ -72,7 +72,7 @@ class Template extends React.Component {
         `}
         render={data =>
           <LayoutWrapper>
-            <Nav />
+            {/* <Nav /> */}
             <BlogHeader data={data} />
             {children}
           </LayoutWrapper>

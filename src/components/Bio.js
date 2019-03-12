@@ -36,8 +36,8 @@ class Bio extends React.Component {
           <a href="https://twitter.com/mwonng">
             follow me on twitter.
           </a> <br/>
-          Looking for some more? Have a glance{' '}
-          <a href="https://twitter.com/mwonng">
+          Interesting? Have a glance at my{' '}
+          <a href="/portfolio">
             portfolio
           </a>.
         </p>
