@@ -4,9 +4,13 @@ import styled from 'styled-components';
 
 const NavLiWrapper = styled.ul`
   list-style: none;
+  text-align: right;
+  margin-bottom: 0;
+
   & > li {
     display: inline-block;
     padding: 0 1rem;
+    margin: 0.5rem 0;
   }
 `
 
@@ -17,15 +21,15 @@ const Nav = () => {
         <li>
           <Link
             style={{ boxShadow: 'none' }}
-            to={'/about'}>
+            to={'/#'}>
             About
           </Link>
         </li>
         <li>
           <Link
             style={{ boxShadow: 'none' }}
-            to={'/about'}>
-            Contact
+            to={'/portfolio'}>
+            Portfolio
           </Link>
         </li>
       </NavLiWrapper>
