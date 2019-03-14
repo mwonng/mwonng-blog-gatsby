@@ -8,18 +8,14 @@ import { rhythm } from '../utils/typography'
 import {LayoutWrapper} from '../components/layout'
 import {HeadingOne, HeadingThree} from '../components/elements/Headings';
 import styled from 'styled-components';
-// import mdtImage from '../assets/images/portfolio/mdt.png'
 import fengyiImage from '../assets/images/portfolio/fengyi.png'
 import hkabaImage from '../assets/images/portfolio/hkaba.png'
 import licheeImage from '../assets/images/portfolio/lichee.png'
 import daikeImage from '../assets/images/portfolio/daike.png'
 import weyouImage from '../assets/images/portfolio/weyou.png'
 import aceworldImage from '../assets/images/portfolio/aceworld.png'
+import { Cover } from '../components/Cover'
 
-
-const PortfolioImg = styled.img`
-  max-width: 600px;
-`
 const UlCustom = styled.ul`
   width: 100%;
   list-style: none;
@@ -30,40 +26,13 @@ const UlCustom = styled.ul`
 
 const List = styled.li`
   position: relative;
-  width: 600px;
-  height:300px;
-  background-image: ${props => `url(${props.bgImage})`};
-  background-size: 100% auto;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  margin-bottom: 1.5rem;
+  clear: both;
+  margin: 0 auto;
+  padding: 1em 0 1em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
 `
-
-const Overlayer = styled.div`
-  background-color: rgba(0,0,0,0);
-  opacity: 0;
-  position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom: 0;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: rgba(0,0,0,0.6);
-    opacity: 1;
-  }
-`
-
-const OverlayerTexr = styled.div`
-  text-align: left;
-  color:#ddd;
-  margin-top:1rem;
-  margin-left: 1rem;
-`
-
-
 
 class Portfolio extends React.Component {
   render() {
@@ -97,47 +66,109 @@ class Portfolio extends React.Component {
         <Bio />
         <h2>Portfolio/Projects</h2>
         <UlCustom>
-          <List bgImage={weyouImage}>
-            <Overlayer>
-              <OverlayerTexr>Weyou booking system</OverlayerTexr>
-              <OverlayerTexr>Website: www.weyou.com.au</OverlayerTexr>
-              <OverlayerTexr>Tech: Node.js, React, GraphQL, MongoDB, Next.js</OverlayerTexr>
-            </Overlayer>
+          <List>
+            <Cover>
+              <img src={weyouImage} alt="weyou"/>
+              <figcaption>
+                <h2><span>Booking system</span></h2>
+                <p>
+                  <ul>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>GraphQL</li>
+                    <li>MongoDB</li>
+                    <li>Next.js</li>
+                    <li>AWS</li>
+                  </ul>
+                </p>
+                <a href="https://www.weyou.com.au/home" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
-          <List bgImage={aceworldImage}>
-            <Overlayer>
-              <OverlayerTexr>Aceworld homepage</OverlayerTexr>
-              <OverlayerTexr>Website: www.aceworld.com.au</OverlayerTexr>
-              <OverlayerTexr>Tech: webflow, Ruby on Rails</OverlayerTexr>
-            </Overlayer>
+          <List>
+            <Cover>
+              <img src={aceworldImage} alt="aceworld"/>
+              <figcaption>
+                <h2><span>Homepage</span></h2>
+                <p>
+                  <ul>
+                    <li>Webflow</li>
+                    <li>Ruby on Rails</li>
+                  </ul>
+                </p>
+                <a href="https://www.aceworld.com.au" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
-          <List bgImage={daikeImage}>
-            <Overlayer>
-              <OverlayerTexr>Daike</OverlayerTexr>
-              <OverlayerTexr>Website: www.getdaike.com</OverlayerTexr>
-              <OverlayerTexr>Tech: React, Redux, Ruby on Rails, RESTful API, PostgreSQL, UI, UX</OverlayerTexr>
-            </Overlayer>
+          <List>
+            <Cover>
+              <img src={daikeImage} alt="getDaike"/>
+              <figcaption>
+                <h2><span>Customer service</span></h2>
+                <p>
+                  <ul>
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Ruby on Rails</li>
+                    <li>RESTful API</li>
+                    <li>PostgreSQL</li>
+                    <li>UI/UX</li>
+                  </ul>
+                </p>
+                <a href="https://www.getdaike.com" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
-          <List bgImage={licheeImage}>
-            <Overlayer>
-              <OverlayerTexr>Lichee order manage</OverlayerTexr>
-              <OverlayerTexr>Website: www.lichee.io</OverlayerTexr>
-              <OverlayerTexr>Tech: Ruby on Rails, RESTful API, PostgreSQL, React, GraphQL</OverlayerTexr>
-            </Overlayer>
+          <List>
+            <Cover>
+              <img src={licheeImage} alt="lichee.io"/>
+              <figcaption>
+                <h2><span>Order manage</span></h2>
+                <p>
+                  <ul>
+                    <li>Ruby on Rails</li>
+                    <li>RESTful API</li>
+                    <li>PostgreSQL</li>
+                    <li>React</li>
+                    <li>GraphQL</li>
+                  </ul>
+                </p>
+                <a href="https://www.lichee.io" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
           <List bgImage={hkabaImage}>
-            <Overlayer>
-              <OverlayerTexr>HKABA membership system</OverlayerTexr>
-              <OverlayerTexr>Website: www.hkaba.com.au</OverlayerTexr>
-              <OverlayerTexr>Tech: Ruby on Rails, PostgreSQL</OverlayerTexr>
-            </Overlayer>
+            <Cover>
+              <img src={hkabaImage} alt="hkaba"/>
+              <figcaption>
+                <h2><span>Membership</span></h2>
+                <p>
+                  <ul>
+                    <li>Ruby on Rails</li>
+                    <li>PostgreSQL</li>
+                  </ul>
+                </p>
+                <a href="https://www.hkaba.com.au" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
           <List bgImage={fengyiImage}>
-            <Overlayer>
-              <OverlayerTexr>Fengyi ecommerce</OverlayerTexr>
-              <OverlayerTexr>Website: www.fengyi.com.au</OverlayerTexr>
-              <OverlayerTexr>Tech: Ruby on Rails, RESTful API, PostgreSQL, React, GraphQL</OverlayerTexr>
-            </Overlayer>
+            <Cover>
+              <img src={fengyiImage} alt="fengyi"/>
+              <figcaption>
+                <h2><span>eCommerce</span></h2>
+                <p>
+                  <ul>
+                    <li>Ruby on Rails</li>
+                    <li>RESTful API</li>
+                    <li>PostgreSQL</li>
+                    <li>React</li>
+                    <li>GraphQL</li>
+                  </ul>
+                </p>
+                <a href="https://www.fengyi.com.au" target="_blank"></a>
+              </figcaption>
+            </Cover>
           </List>
         </UlCustom>
       </LayoutWrapper>
