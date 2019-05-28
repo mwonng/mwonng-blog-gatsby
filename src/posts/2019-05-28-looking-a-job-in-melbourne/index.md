@@ -1,7 +1,7 @@
 ---
 title: "Job in Melbourne | 猫本求职记"
 date: "2019-05-28"
-path: "/post/looing-a-job-in-melbourne"
+path: "/post/job-in-melbourne"
 ---
 
 _2019年5月28日 Update_
