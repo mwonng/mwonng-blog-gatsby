@@ -8,6 +8,14 @@ module.exports = {
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        offsetY: `100`,
+        maintainCase: true,
+        removeAccents: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
