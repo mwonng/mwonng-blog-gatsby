@@ -12,6 +12,13 @@ As now I'm working on NAB, the projects are based on [AEM](https://www.adobe.com
 
 For monitoring all service and it is better to resume as it might restart. iTerm is absolute a good terminal on Mac. but it can only save your last session location and can not detatch your session.
 
+## My Screen
+### iTerm screenshot
+![Vim](./vim.png)
+
+### Vim screenshot
+![React in Vim](./vimWithJs.png)
+
 ## Tmux for terminal session management
 
 There is a lot of guide to teach basic usage of Tmux, so just Google for general question.
